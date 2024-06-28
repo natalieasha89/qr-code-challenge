@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    height:100vh;
+    display:flex;
+    flex-wrap: wrap;            
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: grey;
+}
+
+#qr-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    width: 300px;
+    height: 450px;
+}
+
+img {
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+* {
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+@media (max-width: 480px) { 
+#qr-container {
+    margin-top: 50px;
+    }
+}
+
+@media (max-width: 320px) { 
+    #qr-container {
+    width: 300px;
+    }
+}
